@@ -9,8 +9,15 @@ To write a Python program that defines a **lambda function** which takes two arg
 3. Call the function with the user inputs and print the result.
 
 ## 🧾 Program
-Add code here
+```
+f = lambda x,y: x+y
+
+a,b = map(int,input('Enter two numbers to return their sum: ').split())
+print("Result of addition:",f(a,b))
+```
 
 ## Output
+<img width="486" height="67" alt="image" src="https://github.com/user-attachments/assets/eec3257c-3216-49b3-942e-2c081fa3e86a" />
 
 ## Result
+Thus the program has been executed successfully.
